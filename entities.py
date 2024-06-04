@@ -6,7 +6,7 @@ import pygame, random
 class Paddle:
     pos: pygame.Vector2
     size: tuple
-    color: tuple = (255, 255, 255)
+    color: tuple = (255, 128, 255)
     speed: int = 12
     
     def __post_init__(self):
