@@ -13,7 +13,7 @@ clock = pygame.time.Clock()
 text = pygame.font.SysFont("Consolas", 100)
 paddleHeight = 100
 paddleWidth = 20
-margin = 50
+margin = 48
 segments = 12
 segLength = height/(segments*2)
 
