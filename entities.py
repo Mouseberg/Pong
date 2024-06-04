@@ -7,7 +7,7 @@ class Paddle:
     pos: pygame.Vector2
     size: tuple
     color: tuple = (255, 255, 255)
-    speed: int = 10
+    speed: int = 12
     
     def __post_init__(self):
         self.movement = dict(Up = False, Down = False)
